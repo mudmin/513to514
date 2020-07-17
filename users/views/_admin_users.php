@@ -251,9 +251,8 @@ includeHook($hooks,'post');
             <?php if($settings->auto_assign_un==0) {?>
               <div class="form-group" id="username-group">
               <label>Username <span id="usernameCheck" class="small ml-2"></span></label>
-              <input type="text" class="form-control" id="username" name="username" autocomplete="new-password" value="<?php if (!$form_valid && !empty($_POST)){ echo $username;} ?>" required>
+              <input type="text" class="form-control" id="username" name="username" autocomplete="new-password" value="<?php if (!$form_valid && !empty($_POST)){ echo $username;} ?>" required><?php } ?>
               </div>
-            <?php } ?>
               <div class="form-group" id="fname-group">
               <label>First Name</label>
               <input type="text" class="form-control" id="fname" name="fname" value="<?php if (!$form_valid && !empty($_POST)){ echo $fname;} ?>" required autocomplete="new-password">

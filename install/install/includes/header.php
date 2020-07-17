@@ -18,6 +18,7 @@ ini_set('memory_limit','1024M');
       <a href="/install/" class="navbar-brand d-flex align-items-center">
 		<strong>User</strong>Spice
       </a>
+	  <!-- <a class="btn btn btn-danger" href="recovery.php">Reset and Start Over</a> -->
     </div>
   </div>
 </header>

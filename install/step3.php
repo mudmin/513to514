@@ -34,9 +34,12 @@ require_once("../users/classes/Redirect.php");
                 <p>
                   Congratulations! You can now cleanup the install files and begin using your software. If you have any problems, you can edit the init.php directly or reinstall the app.
                 </p>
-                <div class="text-center">
-                  <a class="btn btn-danger btn-lg" href="cleanup.php">Cleanup Install Files</a>
-                </div>
+                <a class="btn btn-danger" href="cleanup.php">Cleanup Install Files</a>
+                  <?php
+                  //this is a temporary fix
+                  require_once("../users/classes/Redirect.php");
+                  //Redirect::to("cleanup.php");
+                  ?>
               </div>
         </div>
     </div>
